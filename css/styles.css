@@ -14,13 +14,10 @@ body{
 }
 
 .flex-header{
-
    padding:4rem;
-
    background-image: url("../img/TitleLogo.jpg");
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .flex-main{
@@ -122,6 +119,12 @@ body{
 }
 
 @media (min-width:800px) {
+    .flex-header{
+        padding:4rem;
+        background-image: url("../img/school.jpg");
+         background-repeat: no-repeat;
+         background-position: center;
+     }
     .flex-main{
         font-size: 0.9em;
         flex:1;
